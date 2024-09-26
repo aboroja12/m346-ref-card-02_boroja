@@ -42,7 +42,30 @@ Die App kann nun im Browser unter der URL http://localhost:3000 betrachtet werde
 
 
 ### Inbetriebnahme mit Docker Container
-folgt...
+Als erstes ein Dockerfile erstellen im Hauptordner
+
+![Alt-Text](pictures/img.png)
+
+### Git-Hub Actions YAML-Datei erstellen 
+Das File muss in im Ordner .github/workflows sein welche neu erstellt werden müssen.
+
+![Alt-Text](pictures/img_1.png)
+![Alt-Text](pictures/img_2.png)
+
+### Auf Dockerhub Access-Token erstellen
+
+![Alt-Text](pictures/img_4.png)
+
+### Token auf Git tun
+Der Token muss dann auf git hinterlassen werden unter Secrets und der Name muss dann auch im YML file sein
+
+![Alt-Text](pictures/img_5.png)
+
+### File pushen auf Git
+Dann ist es unter Actions ersichtlich
+
+![Alt-Text](pictures/img_3.png)
+
 
 
 
